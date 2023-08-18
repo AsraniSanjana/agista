@@ -1,16 +1,23 @@
 .App {
   text-align: center;
+  font-family: Arial, sans-serif;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+h1 {
+  margin-bottom: 20px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.kanban-board {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  border: 2px solid #ccc; /* Add a border around the kanban board */
+  padding: 20px;
+}
+
+
+.App {
+  text-align: center;
 }
 
 .App-header {
@@ -26,13 +33,27 @@
 
 .App-link {
   color: #61dafb;
+}/* GroupSelector.css */
+
+.group-selector {
+  display: flex;
+  align-items: center;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.group-selector select {
+  padding: 8px; /* Adjust padding for height */
+  font-size: 14px; /* Adjust font size for text */
+  margin-right: 12px; /* Adjust margin between dropdowns */
+  margin-bottom: 12px;
+  margin-top: 5px;
+  margin-left: 12px;
+  width: 150px; /* Adjust the width of the dropdown */
+}
+
+
+.icon{
+  margin-left: 200px;
+}
+.dots-icon{
+  margin-right: auto;
 }
