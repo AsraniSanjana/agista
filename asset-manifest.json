@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/agista/static/css/main.54b53ae0.css",
+    "main.js": "/agista/static/js/main.4f766f9d.js",
+    "static/js/787.81d49cdf.chunk.js": "/agista/static/js/787.81d49cdf.chunk.js",
+    "index.html": "/agista/index.html",
+    "main.54b53ae0.css.map": "/agista/static/css/main.54b53ae0.css.map",
+    "main.4f766f9d.js.map": "/agista/static/js/main.4f766f9d.js.map",
+    "787.81d49cdf.chunk.js.map": "/agista/static/js/787.81d49cdf.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.54b53ae0.css",
+    "static/js/main.4f766f9d.js"
+  ]
+}
