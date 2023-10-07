@@ -1,0 +1,1 @@
+1. allow drag and drop of tasks from any of the cols to others.
